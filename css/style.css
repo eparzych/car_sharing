@@ -132,13 +132,14 @@ body {
     border-radius: 40px;
     box-shadow: var(--color-shadow);
     transition: .3;
+    border: none;
 }
 
 .btn-share-a-car:hover,
 .btn-key-features:hover {
+    box-shadow: none;
     cursor: pointer;
-    background-color: #FFF;
-    color: var(--main-color-red);
+    background-color: rgba(255, 255, 255, .3);
 }
 
 /* ARROW */
@@ -177,13 +178,9 @@ body {
     text-transform: uppercase;
     font-size: var(--font-size-title-section);
 }
-   
-.blog-title::before,
-.blog-title::after,
-.service-title::before,
-.service-title::after, 
-.contact-title::before,
-.contact-title::after {
+
+.section-title::before,
+.section-title::after {
     content: "";
     display: block;
     height: 3px;
@@ -200,8 +197,8 @@ body {
     padding: 0 10px;
 }
 
-.blog-container .article-container,
-.service-container .article-container {
+
+.article-container {
     display: flex;
     justify-content: space-between;
 }
