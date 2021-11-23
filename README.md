@@ -1,3 +1,5 @@
 # car_sharing
-Project made during the Coders Lab workshop
-Project made using html and css.
+
+Project made during the Coders Lab workshop.
+
+Using only html and css.
