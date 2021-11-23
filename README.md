@@ -2,4 +2,4 @@
 
 Project made during the Coders Lab workshop.
 
-Using only html and css.
+Using only html and css, flexbox.
